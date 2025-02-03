@@ -51,7 +51,7 @@ This section provides an exhaustive list of inputs required for the prototype. E
 
 ## **Development Roadmap**
 - **Phase 1:** Implement movement and basic mechanics (✔ Completed)
-- **Phase 2:** Add combat mechanics (✔ Completed)
+- **Phase 2:** Add combat mechanics (⏳ In Progress)
 - **Phase 3:** Integrate interaction and environmental elements (⏳ In Progress)
 - **Phase 4:** Optimize gameplay and test thoroughly (🚧 Upcoming)
 
