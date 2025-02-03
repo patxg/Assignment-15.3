@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05a1a4e5eddb47f4ab34f102f925bc8e, type: 3}
+  m_Name: CharacterAnimationConfig
+  m_EditorClassIdentifier: 
+  idle: {fileID: 7400000, guid: 1b8b8a7328271f24ebde7e623cf0d9c9, type: 2}
+  idleTransitionSlide: {fileID: 7400000, guid: 43d884fa0f3403748863f0653ec702d4, type: 2}
+  walk: {fileID: 7400000, guid: c2cd97a1a62a04142a2cd41eaf6ed28d, type: 2}
+  run: {fileID: 7400000, guid: 9ea5eb31310d77541b9b4314fd72a689, type: 2}
+  sprint: {fileID: 7400000, guid: 3fb807b257472ca429d2fb61928acdf9, type: 2}
+  jumpRise: {fileID: 7400000, guid: 522bfddacc53c694bbb654ce4d81b033, type: 2}
+  jumpMid: {fileID: 7400000, guid: f42d850f0bcbb4d4c886a5272590f061, type: 2}
+  jumpFall: {fileID: 7400000, guid: 6e950475c8c7cdc45801cc0a4f7ed7ee, type: 2}
+  landing: {fileID: 7400000, guid: d072fc72c4a26c945addd516d396cfd5, type: 2}
+  frontFlip: {fileID: 7400000, guid: 3c136ac963202ee429c417b3faa47cf1, type: 2}
+  crouch: {fileID: 7400000, guid: 7086770aa204ee2408b4c6f0c2306b40, type: 2}
+  crawl: {fileID: -3579208771848967941, guid: 283c8286ff7f8a74082557772d9afce2, type: 3}
+  roll: {fileID: 7400000, guid: 3cf9f95b50b24634cb93934674d6fc5a, type: 2}
+  slide: {fileID: 7400000, guid: 50e7683561e1a1145a84173a4357c7e4, type: 2}
+  dashStart: {fileID: 7400000, guid: 77c08443decfc9e4ca546def7719ab20, type: 2}
+  dashLoop: {fileID: 7400000, guid: 974d7aa5edf28ef4bb934402bafd900b, type: 2}
+  dashEnd: {fileID: 7400000, guid: ab00aa349409ab347abe53efb22c4c69, type: 2}
+  ledgeHang: {fileID: 7400000, guid: 68abcbb64394232479173c3c3c1909db, type: 2}
+  ledgeGrab: {fileID: 7400000, guid: f93bfccb26d3c2248ad77eb31e4373b5, type: 2}
+  ledgeClimb: {fileID: 7400000, guid: 13f95e20373a37f45a4189a87697081b, type: 2}
+  wallSlide: {fileID: 7400000, guid: 33ab0d9f2d211354fa490961b1e5ccd8, type: 2}
+  ladderClimb: {fileID: 7400000, guid: 83d03af9c1262f146bc28e9eb4ec7f4d, type: 2}
+  ladderWallClimb: {fileID: 7400000, guid: 71919973ce640fa479f50dc1ea502714, type: 2}
+  horizontalLadderClimb: {fileID: 7400000, guid: ebcc026fc30c95441a9549e6ed4fe255, type: 2}
+  finishWallClimb: {fileID: 7400000, guid: 700d1f02e366ed14e95e38a991058de5, type: 2}
+  wallClimbIdle: {fileID: 7400000, guid: 469b871bcda33c0489d18c9f8f00a8b4, type: 2}
+  rockClimbIdle: {fileID: 0}
+  rockClimbUp: {fileID: 0}
+  rockClimbDown: {fileID: 0}
+  rockClimbRight: {fileID: 0}
+  rockClimbLeft: {fileID: 0}
+  rockClimbJumpPrepare: {fileID: 0}
+  rockClimbGrabLand: {fileID: 0}
+  monkeyBarHang: {fileID: 7400000, guid: 4c9ea60d4f764c54aa204d23c2b11a1c, type: 2}
+  monkeyBarClimb: {fileID: 7400000, guid: af76cdd742f2b0a4eb5e7debb9033ed9, type: 2}
+  lookUp: {fileID: 7400000, guid: 064db1f0f64c0d64fb52c46c2bd06b85, type: 2}
+  pullInteraction: {fileID: 7400000, guid: d5a0b73ffb4d1d74fbe939ffd1d1deb0, type: 2}
+  push: {fileID: 7400000, guid: 8cc84c0662e78e94a816a4a065c0793a, type: 2}
+  pull: {fileID: 7400000, guid: 9e20823fca9ca1048a7ee6fd54006053, type: 2}
+  grab: {fileID: 0}
+  fishingPrepare: {fileID: 0}
+  charge: {fileID: 0}
+  cast: {fileID: 0}
+  fishingIdle: {fileID: 0}
+  reel: {fileID: 0}
+  struggle: {fileID: 0}
+  catchFish: {fileID: 0}
+  swordIdle: {fileID: 0}
+  swordWalk: {fileID: 0}
+  swordRun: {fileID: 0}
+  swordRunAltGrip: {fileID: 0}
+  swordRunSlash: {fileID: 0}
+  swordSprint: {fileID: 0}
+  swordSprintSlash: {fileID: 0}
+  swordCrouch: {fileID: 0}
+  crouchingSlash: {fileID: 0}
+  swordJumpUpward: {fileID: 0}
+  swordJumpApex: {fileID: 0}
+  swordJumpDownward: {fileID: 0}
+  airSlashForward: {fileID: 0}
+  airSlashUp: {fileID: 0}
+  airSlashDown: {fileID: 0}
+  punchA: {fileID: 7400000, guid: 64a1125ecb579e94daef1d8218b74af3, type: 2}
+  punchB: {fileID: 7400000, guid: a81432d59c863c94384e2dccd9765823, type: 2}
+  punchC: {fileID: 7400000, guid: 81a9c09a64d83904990631d9a38256ac, type: 2}
+  kickA: {fileID: 7400000, guid: 75e1386bdd553254e81e8b8bb50fb0b7, type: 2}
+  kickB: {fileID: 7400000, guid: 4ce748d4731ff294da5d9ca4760063b8, type: 2}
+  kickC: {fileID: 7400000, guid: d98d9ab37d0a43c4cb0595b11c732d86, type: 2}
+  groundSlamAttack: {fileID: 7400000, guid: 43a3597f5e5a1b646b018598197b92a6, type: 2}
+  swordAttackA: {fileID: 7400000, guid: 12482399ed2e0d34188669fc946e0f8c, type: 2}
+  comboSwordAttackA: {fileID: 0}
+  comboSwordAttackB: {fileID: 0}
+  comboSwordAttackC: {fileID: 0}
+  comboSwordAttackD: {fileID: 0}
+  standingSlash: {fileID: 0}
+  swordGuard: {fileID: 0}
+  swordGuardImpact: {fileID: 0}
+  hitDamage: {fileID: 7400000, guid: fec1c03dbaa94f94293b61c6a728683a, type: 2}
+  hitDamageUpward: {fileID: 7400000, guid: 49a21f44a083e4541a16f35d759bb2f4, type: 2}
+  knockback: {fileID: 7400000, guid: 4d9ef889b42ba9742a4eeb5639b0db31, type: 2}
+  die: {fileID: 7400000, guid: 887396e92dabf1f41924630403ec5f44, type: 2}
+  stunned: {fileID: 7400000, guid: 783778454d463df45b438d5d2769e9f4, type: 2}
+  throwUnderarm: {fileID: 7400000, guid: 48d65a3009287664dbd77c567ca9c86c, type: 2}
+  throwOverarm: {fileID: 7400000, guid: b8240bf16d41e484fbedc680421f552e, type: 2}
+  shockLight: {fileID: 7400000, guid: bba2ea708e0e2fd41b73a35dd65a2612, type: 2}
+  shockHeavy: {fileID: 7400000, guid: 69236e126ca20e1449b7bfaa8a261437, type: 2}
+  gunAim: {fileID: 0}
+  walkAim: {fileID: 0}
+  walkGun: {fileID: 7400000, guid: a26a4fb5d01813e4493a7d70cc8c419c, type: 2}
+  runAim: {fileID: 0}
+  runFire: {fileID: 0}
+  sprintAim: {fileID: 0}
+  sprintGun: {fileID: 7400000, guid: 98dc9f2a023fc0c4b861268e0b1d15f4, type: 2}
+  crouchAim: {fileID: 0}
+  crouchGun: {fileID: 0}
+  gunFireOneHanded: {fileID: 7400000, guid: 725f2bcdba0d61b4ab2b87af4fe7666d, type: 2}
+  gunFireTwoHanded: {fileID: 7400000, guid: 5d23fb4f5ed0c3042b35dd675946dd97, type: 2}
+  gunReload: {fileID: 7400000, guid: e347b4bf44ae36a4b86c6bd75fc7dd50, type: 2}
+  bowDraw: {fileID: -577894356349636361, guid: 1c16510852b990f48b2663de8a1c34f6, type: 3}
+  bowAim: {fileID: 7400000, guid: 6b8729b7a0a214d4faec9c96a8eb113f, type: 2}
+  bowFire: {fileID: 7400000, guid: 10573f78446dc8d48bdd19cad83f3ef0, type: 2}

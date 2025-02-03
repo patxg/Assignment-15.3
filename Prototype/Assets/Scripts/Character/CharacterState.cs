@@ -1,0 +1,21 @@
+public enum CharacterState
+{
+    Idle,
+    Walking,
+    Running,
+    Sprinting,
+    Jumping,
+    JumpFall,
+    Landing,
+    Crouching,
+    Rolling,
+    Dashing,
+    Attacking,
+    Blocking,
+    Reloading,
+    SwappingWeapon,
+    Interacting,
+    UsingItem,
+    OpeningInventory,
+    Paused
+}

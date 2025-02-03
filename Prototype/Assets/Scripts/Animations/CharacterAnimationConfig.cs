@@ -1,0 +1,112 @@
+using UnityEngine;
+
+[CreateAssetMenu(fileName = "CharacterAnimationConfig", menuName = "Character/AnimationConfig")]
+public class CharacterAnimationConfig : ScriptableObject
+{
+    // Movement
+    public AnimationClip idle;
+    public AnimationClip idleTransitionSlide;
+    public AnimationClip walk;
+    public AnimationClip run;
+    public AnimationClip sprint;
+    public AnimationClip jumpRise;
+    public AnimationClip jumpMid;
+    public AnimationClip jumpFall;
+    public AnimationClip landing;
+    public AnimationClip frontFlip;
+    public AnimationClip crouch;
+    public AnimationClip crawl;
+    public AnimationClip roll;
+    public AnimationClip slide;
+    public AnimationClip dashStart;
+    public AnimationClip dashLoop;
+    public AnimationClip dashEnd;
+    public AnimationClip ledgeHang;
+    public AnimationClip ledgeGrab;
+    public AnimationClip ledgeClimb;
+    public AnimationClip wallSlide;
+    public AnimationClip ladderClimb;
+    public AnimationClip ladderWallClimb;
+    public AnimationClip horizontalLadderClimb;
+    public AnimationClip finishWallClimb;
+    public AnimationClip wallClimbIdle;
+    public AnimationClip rockClimbIdle;
+    public AnimationClip rockClimbUp;
+    public AnimationClip rockClimbDown;
+    public AnimationClip rockClimbRight;
+    public AnimationClip rockClimbLeft;
+    public AnimationClip rockClimbJumpPrepare;
+    public AnimationClip rockClimbGrabLand;
+    public AnimationClip monkeyBarHang;
+    public AnimationClip monkeyBarClimb;
+
+    // Interaction
+    public AnimationClip lookUp;
+    public AnimationClip pullInteraction;
+    public AnimationClip push;
+    public AnimationClip pull;
+    public AnimationClip grab;
+    public AnimationClip fishingPrepare;
+    public AnimationClip charge;
+    public AnimationClip cast;
+    public AnimationClip fishingIdle;
+    public AnimationClip reel;
+    public AnimationClip struggle;
+    public AnimationClip catchFish;
+
+    // Combat
+    public AnimationClip swordIdle;
+    public AnimationClip swordWalk;
+    public AnimationClip swordRun;
+    public AnimationClip swordRunAltGrip;
+    public AnimationClip swordRunSlash;
+    public AnimationClip swordSprint;
+    public AnimationClip swordSprintSlash;
+    public AnimationClip swordCrouch;
+    public AnimationClip crouchingSlash;
+    public AnimationClip swordJumpUpward;
+    public AnimationClip swordJumpApex;
+    public AnimationClip swordJumpDownward;
+    public AnimationClip airSlashForward;
+    public AnimationClip airSlashUp;
+    public AnimationClip airSlashDown;
+    public AnimationClip punchA;
+    public AnimationClip punchB;
+    public AnimationClip punchC;
+    public AnimationClip kickA;
+    public AnimationClip kickB;
+    public AnimationClip kickC;
+    public AnimationClip groundSlamAttack;
+    public AnimationClip swordAttackA;
+    public AnimationClip comboSwordAttackA;
+    public AnimationClip comboSwordAttackB;
+    public AnimationClip comboSwordAttackC;
+    public AnimationClip comboSwordAttackD;
+    public AnimationClip standingSlash;
+    public AnimationClip swordGuard;
+    public AnimationClip swordGuardImpact;
+    public AnimationClip hitDamage;
+    public AnimationClip hitDamageUpward;
+    public AnimationClip knockback;
+    public AnimationClip die;
+    public AnimationClip stunned;
+    public AnimationClip throwUnderarm;
+    public AnimationClip throwOverarm;
+    public AnimationClip shockLight;
+    public AnimationClip shockHeavy;
+    public AnimationClip gunAim;
+    public AnimationClip walkAim;
+    public AnimationClip walkGun;
+    public AnimationClip runAim;
+    public AnimationClip runFire;
+    public AnimationClip sprintAim;
+    public AnimationClip sprintGun;
+    public AnimationClip crouchAim;
+    public AnimationClip crouchGun;
+    public AnimationClip gunFireOneHanded;
+    public AnimationClip gunFireTwoHanded;
+    public AnimationClip gunReload;
+    public AnimationClip bowDraw;
+    public AnimationClip bowAim;
+    public AnimationClip bowFire;
+}
